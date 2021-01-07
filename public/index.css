@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-size: larger;
+  font-family: "Indie Flower", cursive;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  margin-top: 3em;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.not-danger,
+.danger {
+  width: 70%;
+  text-align: center;
+  font-weight: bolder;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.danger {
+  background-color: #d9534f;
+}
+
+.not-danger {
+  background-color: #5cb85c;
+}
+
+form {
+  display: flex;
+  width: 70%;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+}
+
+.btn {
+  margin: 0.2em;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.list,
+.items {
+  width: 90%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  margin: 0.5em;
+  padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  border-radius: 10px;
+  background-color: #dadada;
+  font-size: medium;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+p {
+  color: #1266f1;
+}
+
+h1 {
+  color: #b23cfd;
+  text-decoration: underline;
+}
